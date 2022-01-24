@@ -1,12 +1,17 @@
 import "@progress/kendo-theme-default/dist/all.css";
+
 import React from 'react'
+import AllFeaturesGrid from "./components/AllFeatures";
 import BasicGrid from "./components/BasicGrid";
+import PdfExport from "./components/PdfExport";
 
 
 function App() {
   return (
     <div>
-      <BasicGrid/>
+      {/* <BasicGrid/> */}
+      <AllFeaturesGrid/>
+      {/* <PdfExport/> */}
     </div>
   )
 }
